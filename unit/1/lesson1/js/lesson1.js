@@ -13,23 +13,24 @@ lesson1App.controller (
 			// the user pressed the plus button
 
 			$scope.plusClicked = function() {
+				/*
 				var xValue;
 				var yValue;
 
 				xValue = document.getElementById('X');
 				yValue = document.getElementById('Y');
-
-				if (isNaN(xValue.value) === true) {
-					alert("'" + xValue.value + "' is invalid. Please enter only numbers.");
-					xValue.value = "";
+				*/
+				if (isNaN($scope.xValue.value) === true) {
+					alert("'" + $scope.xValue.value + "' is invalid. Please enter only numbers.");
+					$scope.xValue.value = "";
 					return false;
 				} else {
 					// convert value into an integer
 					$scope.X = parseInt($scope.X, 10);
 				}
-				if (isNaN(yValue.value) === true) {
-					alert("'" + yValue + "' is invalid. Please enter only numbers.");
-					yValue.value = "";
+				if (isNaN($scope.yValue.value) === true) {
+					alert("'" + $scope.yValue + "' is invalid. Please enter only numbers.");
+					$scope.yValue.value = "";
 					return false;
 				} else {
 					$scope.Y = parseInt($scope.Y, 10);
@@ -52,39 +53,29 @@ lesson1App.controller (
 				} else {
 					$scope.Y = parseInt($scope.Y, 10);
 				}
-				if (isNaN($scope.X) === true) {
-					$scope.X = 0;
-				} else {
-					$scope.X = parseInt($scope.X, 10);
-				}
-				if (isNaN($scope.Y) === true) {
-					$scope.Y = 0;
-				} else {
-					$scope.Y = parseInt($scope.Y, 10);
-				}
 				$scope.Z = $scope.X - $scope.Y;
 				$scope.operator = "minus";
 				$scope.initialized = true;
 			};
 
 			$scope.numbersOnlyForX = function() {
-				var Xvalue;
+				//var Xvalue;
 				var re = /[0-9]/g;
 
-				Xvalue = document.getElementById('X');
-				if (re.test(Xvalue.value) === false) {
-					alert("'" + Xvalue.value + "' is invalid. Numbers only please.");
-					Xvalue.value = "";
+				//Xvalue = document.getElementById('X');
+				if (re.test($scope.Xvalue.value) === false) {
+					alert("'" + $scope.Xvalue.value + "' is invalid. Numbers only please.");
+					$scope.Xvalue.value = "";
 				}
 			}
 			$scope.numbersOnlyForY = function() {
-				var Yvalue;
+				//var Yvalue;
 				var re = /[0-9]/g;
 
-				Yvalue = document.getElementById('Y');
-				if (re.test(Yvalue.value) === false) {
-					alert("'" + Yvalue.value + "' is invalid. Numbers only please.");
-					Xvalue.value = "";
+				//Yvalue = document.getElementById('Y');
+				if (re.test($scope.Yvalue.value) === false) {
+					alert("'" + $scope.Yvalue.value + "' is invalid. Numbers only please.");
+					$scope.Xvalue.value = "";
 				}
 			}
 		}
