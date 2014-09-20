@@ -14,15 +14,16 @@ lesson1App.controller (
 
 			// the user pressed the plus button
 
-			$scope.plusClicked = function() {
+			function checkEntryForNumerals() {
 				if ($scope.X != parseInt($scope.X, 10)) {
 					if (($scope.X != "") && ($scope.X != "undefined")) {
 						alert("'" + $scope.X + "' is invalid. Please enter only numbers.");
 					}
 					$scope.X = "";
-					return false;
+					$scope.initialized = false;
 				} else {
 					$scope.X = parseInt($scope.X, 10);
+					$scope.initialized = true;
 				}
 
 				if ($scope.Y != parseInt($scope.Y, 10)) {
@@ -30,40 +31,33 @@ lesson1App.controller (
 						alert("'" + $scope.Y + "' is invalid. Please enter only numbers.");
 					}
 					$scope.Y = "";
-					return false;
+					$scope.initialized = false;
 				} else {
 					$scope.Y = parseInt($scope.Y, 10);
+					$scope.initialized = true;
 				}
 
-				$scope.Z = $scope.X + $scope.Y;
-				$scope.operator = "plus";
-				$scope.initialized = true;
+				return $scope.initialized;
+			}
+
+			// the user pressed the plus button
+
+			$scope.plusClicked = function() {
+				if (checkEntryForNumerals() === true) {
+					$scope.Z = $scope.X + $scope.Y;
+					$scope.operator = "plus";
+					$scope.initialized = true;
+				}
 			};
 
 			// the user pressed the minus button
 
 			$scope.minusClicked = function() {
-				if ($scope.X != parseInt($scope.X, 10)) {
-					if (($scope.X != "") && ($scope.X != "undefined")) {
-						alert("'" + $scope.X + "' is invalid. Please enter only numbers.");
-					}
-					$scope.X = "";
-					return false;
-				} else {
-					$scope.X = parseInt($scope.X, 10);
+				if (checkEntryForNumerals() === true) {
+					$scope.Z = $scope.X - $scope.Y;
+					$scope.operator = "minus";
+					$scope.initialized = true;
 				}
-				if ($scope.Y != parseInt($scope.Y, 10)) {
-					if (($scope.Y != "")  && ($scope.Y != "undefined")) {
-						alert("'" + $scope.Y + "' is invalid. Please enter only numbers.");
-						$scope.Y = "";
-						return false;
-					}
-				} else {
-					$scope.Y = parseInt($scope.Y, 10);
-				}
-				$scope.Z = $scope.X - $scope.Y;
-				$scope.operator = "minus";
-				$scope.initialized = true;
 			};
 
 			$scope.numbersOnlyForX = function() {
@@ -72,6 +66,7 @@ lesson1App.controller (
 				if (re.test($scope.X) === false) {
 					alert("'" + $scope.X + "' is invalid. Numbers only please.");
 					$scope.X = "";
+					$scope.initialized = false;
 				}
 			}
 			$scope.numbersOnlyForY = function() {
@@ -80,6 +75,7 @@ lesson1App.controller (
 				if (re.test($scope.Y) === false) {
 					alert("'" + $scope.Y + "' is invalid. Numbers only please.");
 					$scope.Y = "";
+					$scope.initialized = false;
 				}
 			}
 		}
