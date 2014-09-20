@@ -4,8 +4,10 @@ lesson1App.controller (
 	"lesson1Ctrl",
 	[	"$scope",
 		function ( $scope ) {
-			//$scope.X = 0;
-			//$scope.Y = 0;
+
+			// setting initial values
+			$scope.X = "";
+			$scope.Y = "";
 			$scope.Z = "0";
 			$scope.operator = "minus / plus";
 			$scope.initialized = false;
@@ -13,28 +15,26 @@ lesson1App.controller (
 			// the user pressed the plus button
 
 			$scope.plusClicked = function() {
-				/*
-				var xValue;
-				var yValue;
-
-				xValue = document.getElementById('X');
-				yValue = document.getElementById('Y');
-				*/
-				if (isNaN($scope.xValue.value) === true) {
-					alert("'" + $scope.xValue.value + "' is invalid. Please enter only numbers.");
-					$scope.xValue.value = "";
+				if ($scope.X != parseInt($scope.X, 10)) {
+					if (($scope.X != "") && ($scope.X != "undefined")) {
+						alert("'" + $scope.X + "' is invalid. Please enter only numbers.");
+					}
+					$scope.X = "";
 					return false;
 				} else {
-					// convert value into an integer
 					$scope.X = parseInt($scope.X, 10);
 				}
-				if (isNaN($scope.yValue.value) === true) {
-					alert("'" + $scope.yValue + "' is invalid. Please enter only numbers.");
-					$scope.yValue.value = "";
+
+				if ($scope.Y != parseInt($scope.Y, 10)) {
+					if (($scope.Y != "")  && ($scope.Y != "undefined")) {
+						alert("'" + $scope.Y + "' is invalid. Please enter only numbers.");
+					}
+					$scope.Y = "";
 					return false;
 				} else {
 					$scope.Y = parseInt($scope.Y, 10);
 				}
+
 				$scope.Z = $scope.X + $scope.Y;
 				$scope.operator = "plus";
 				$scope.initialized = true;
@@ -43,13 +43,21 @@ lesson1App.controller (
 			// the user pressed the minus button
 
 			$scope.minusClicked = function() {
-				if (isNaN($scope.X) === true) {
-					$scope.X = 0;
+				if ($scope.X != parseInt($scope.X, 10)) {
+					if (($scope.X != "") && ($scope.X != "undefined")) {
+						alert("'" + $scope.X + "' is invalid. Please enter only numbers.");
+					}
+					$scope.X = "";
+					return false;
 				} else {
 					$scope.X = parseInt($scope.X, 10);
 				}
-				if (isNaN($scope.Y) === true) {
-					$scope.Y = 0;
+				if ($scope.Y != parseInt($scope.Y, 10)) {
+					if (($scope.Y != "")  && ($scope.Y != "undefined")) {
+						alert("'" + $scope.Y + "' is invalid. Please enter only numbers.");
+						$scope.Y = "";
+						return false;
+					}
 				} else {
 					$scope.Y = parseInt($scope.Y, 10);
 				}
@@ -59,23 +67,19 @@ lesson1App.controller (
 			};
 
 			$scope.numbersOnlyForX = function() {
-				//var Xvalue;
 				var re = /[0-9]/g;
 
-				//Xvalue = document.getElementById('X');
-				if (re.test($scope.Xvalue.value) === false) {
-					alert("'" + $scope.Xvalue.value + "' is invalid. Numbers only please.");
-					$scope.Xvalue.value = "";
+				if (re.test($scope.X) === false) {
+					alert("'" + $scope.X + "' is invalid. Numbers only please.");
+					$scope.X = "";
 				}
 			}
 			$scope.numbersOnlyForY = function() {
-				//var Yvalue;
 				var re = /[0-9]/g;
 
-				//Yvalue = document.getElementById('Y');
-				if (re.test($scope.Yvalue.value) === false) {
-					alert("'" + $scope.Yvalue.value + "' is invalid. Numbers only please.");
-					$scope.Xvalue.value = "";
+				if (re.test($scope.Y) === false) {
+					alert("'" + $scope.Y + "' is invalid. Numbers only please.");
+					$scope.Y = "";
 				}
 			}
 		}
