@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list id="4204e250-db6e-4842-a221-99d1122b3393" name="Default" comment="Sending to GitHub&#10;" />
     <list id="5fe2a577-6cb6-4ce6-a2f2-a4528d775c44" name="Sending to GitHub (cherry picked from commit 5582573)" comment="Sending to GitHub&#10;(cherry picked from commit 5582573)" />
-    <list default="true" id="19877606-01d0-4ab4-8166-a6982e02d466" name="refactored to optimize code and do better error handling (cherry picked from commit 575f6d1)" comment="reworking directories">
+    <list default="true" id="19877606-01d0-4ab4-8166-a6982e02d466" name="refactored to optimize code and do better error handling (cherry picked from commit 575f6d1)" comment="added 2 semicolons">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit/1/lesson1/js/vendor/angular-1.2.15/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit/1/lesson1/js/vendor/angular-1.2.15/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit/1/lesson1/js/vendor/angular-1.2.15/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unit/1/lesson1/css/lesson1.css" afterPath="$PROJECT_DIR$/unit/1/lesson1/css/lesson1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unit/1/lesson1/js/lesson1.js" afterPath="$PROJECT_DIR$/unit/1/lesson1/js/lesson1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkful.iws" />
@@ -26,52 +31,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="thinkful">
-      <favorite_root url="file://$PROJECT_DIR$" module="thinkful" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-        <favorite_root url="file://$PROJECT_DIR$/unit" module="thinkful" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-          <favorite_root url="file://$PROJECT_DIR$/unit/1" module="thinkful" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-            <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson1" module="thinkful" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-              <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson1/js" module="thinkful" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-                <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson1/js/vendor" module="thinkful" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-                  <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson1/js/vendor/angularjs-1.2.15" module="thinkful" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-                    <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson1/js/vendor/angularjs-1.2.15/angular.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-                    <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson1/js/vendor/angularjs-1.2.15/angular.min.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-                    <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson1/js/vendor/angularjs-1.2.15/angular.min.js.map" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-                  </favorite_root>
-                </favorite_root>
-                <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson1/js/lesson1.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-              </favorite_root>
-              <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson1/css" module="thinkful" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-                <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson1/css/lesson1.css" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-              </favorite_root>
-              <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson1/lesson1.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </favorite_root>
-            <favorite_root url="file://$PROJECT_DIR$/unit/1/lesson2" module="thinkful" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-          </favorite_root>
-        </favorite_root>
-        <favorite_root url="file://$PROJECT_DIR$/.idea" module="thinkful" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-          <favorite_root url="file://$PROJECT_DIR$/.idea/scopes" module="thinkful" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-            <favorite_root url="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          </favorite_root>
-          <favorite_root url="file://$PROJECT_DIR$/.idea/vcs.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/.idea/misc.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/.idea/modules.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/.idea/thinkful.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/.idea/encodings.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-          <favorite_root url="file://$PROJECT_DIR$/.idea/workspace.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-        </favorite_root>
-        <favorite_root url="file://$PROJECT_DIR$/test.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-        <favorite_root url="file://$PROJECT_DIR$/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-        <favorite_root url="file://$PROJECT_DIR$/lesson1.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-      </favorite_root>
-    </favorites_list>
+    <favorites_list name="thinkful" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lesson1.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lesson1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit/1/lesson1/lesson1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="16" selection-start="369" selection-end="369" vertical-scroll-proportion="0.6743516" vertical-offset="18" max-vertical-offset="1026">
+            <state line="42" column="12" selection-start="1550" selection-end="1550" vertical-scroll-proportion="-10.407408" vertical-offset="475" max-vertical-offset="1026">
               <folding />
             </state>
           </provider>
@@ -80,21 +47,17 @@
       <file leaf-file-name="lesson1.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit/1/lesson1/js/lesson1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="20" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1620">
+            <state line="79" column="14" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0" vertical-offset="1029" max-vertical-offset="1620">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson1.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="lesson1.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/unit/1/lesson1/css/lesson1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="1" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="792">
-              <folding>
-                <marker date="1411261465802" expanded="true" signature="147:172" placeholder="{...}" />
-                <marker date="1411261465802" expanded="true" signature="293:367" placeholder="{...}" />
-                <marker date="1411261465802" expanded="true" signature="462:495" placeholder="{...}" />
-              </folding>
+            <state line="14" column="28" selection-start="196" selection-end="196" vertical-scroll-proportion="0.42639595" vertical-offset="0" max-vertical-offset="774">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +79,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="gh-pages-new2" />
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
   </component>
@@ -131,9 +94,9 @@
         <option value="$PROJECT_DIR$/css/lesson.css" />
         <option value="$PROJECT_DIR$/lesson1.html" />
         <option value="$PROJECT_DIR$/js/lesson1.js" />
+        <option value="$PROJECT_DIR$/unit/1/lesson1/lesson1.html" />
         <option value="$PROJECT_DIR$/unit/1/lesson1/css/lesson1.css" />
         <option value="$PROJECT_DIR$/unit/1/lesson1/js/lesson1.js" />
-        <option value="$PROJECT_DIR$/unit/1/lesson1/lesson1.html" />
       </list>
     </option>
   </component>
@@ -169,6 +132,66 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkful" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Problems">
           <PATH>
@@ -191,16 +214,6 @@
             <PATH_ELEMENT USER_OBJECT="thinkful">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thinkful" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -250,6 +263,14 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.lesson1.html">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -260,23 +281,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -403,18 +416,10 @@
       <created>1411253716198</created>
       <updated>1411253716198</updated>
     </task>
-    <task id="LOCAL-00022" summary="reworking directories">
-      <created>1411259161624</created>
-      <updated>1411259161624</updated>
-    </task>
-    <task id="LOCAL-00023" summary="reworking directories&#10;">
-      <created>1411259310525</created>
-      <updated>1411259310525</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -438,21 +443,21 @@
     <frame x="49" y="24" width="1317" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5072464" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50885665" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32740214" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291815" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24974412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11594203" sideWeight="0.4992272" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32850242" sideWeight="0.5007728" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11594203" sideWeight="0.5007728" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252818" sideWeight="0.4992272" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -473,9 +478,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24974412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3306039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -487,8 +492,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
@@ -503,11 +506,7 @@
     <MESSAGE value="refactored to optimize code and do better error handling&#10;(cherry picked from commit 575f6d1)" />
     <MESSAGE value="Sending to GitHub&#10;" />
     <MESSAGE value="added 2 semicolons" />
-    <MESSAGE value="FIXING DIRECTORY COMMIT" />
-    <MESSAGE value="added 2 semicolons&#10;" />
-    <MESSAGE value="reworking directories" />
-    <MESSAGE value="reworking directories&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="reworking directories&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 2 semicolons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -515,32 +514,49 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Argus/containers/batch.js">
+    <entry file="file://$PROJECT_DIR$/unit/1/lesson1/lesson1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1591" selection-end="2303" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="28512" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit/1/lesson1/css/lesson1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="792">
-          <folding>
-            <marker date="1411261465802" expanded="true" signature="147:172" placeholder="{...}" />
-            <marker date="1411261465802" expanded="true" signature="293:367" placeholder="{...}" />
-            <marker date="1411261465802" expanded="true" signature="462:495" placeholder="{...}" />
-          </folding>
+        <state line="42" column="12" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="1026">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unit/1/lesson1/js/lesson1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="20" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1620">
+        <state line="51" column="0" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unit/1/lesson1/css/lesson1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Argus/containers/batch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1591" selection-end="2303" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="28512" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/unit/1/lesson1/lesson1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="369" selection-end="369" vertical-scroll-proportion="0.6743516" vertical-offset="18" max-vertical-offset="1026">
+        <state line="42" column="12" selection-start="1550" selection-end="1550" vertical-scroll-proportion="-10.407408" vertical-offset="475" max-vertical-offset="1026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit/1/lesson1/js/lesson1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="14" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0" vertical-offset="1029" max-vertical-offset="1620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit/1/lesson1/css/lesson1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="196" selection-end="196" vertical-scroll-proportion="0.42639595" vertical-offset="0" max-vertical-offset="774">
           <folding />
         </state>
       </provider>

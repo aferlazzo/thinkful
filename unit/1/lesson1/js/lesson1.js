@@ -68,7 +68,7 @@ lesson1App.controller (
 					$scope.X = "";
 					$scope.initialized = false;
 				}
-			}
+			};
 			$scope.numbersOnlyForY = function() {
 				var re = /[0-9]/g;
 
@@ -77,7 +77,7 @@ lesson1App.controller (
 					$scope.Y = "";
 					$scope.initialized = false;
 				}
-			}
+			};
 		}
 	]
 );
