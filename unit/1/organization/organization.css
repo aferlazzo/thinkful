@@ -1,0 +1,18 @@
+body {
+	font-family: sans-serif;
+	background-color: #cccccc;
+}
+#search {
+	margin: 20px 200px;
+}
+#tableWrapper {
+	width: 400px;
+	margin-left: 200px;
+	height: 400px;
+	padding: 10px;
+	overflow-y: auto;
+	background-color: #fff;
+}
+td:nth-child(even) {
+	text-align: right;
+}
