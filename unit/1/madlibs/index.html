@@ -1,0 +1,78 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+	<meta charset="utf-8">
+	<title>MaryKay MadLibs</title>
+	<link href="../organization/organization.css" rel="stylesheet">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+	<script src="madlibs.js"></script>
+	<style>
+		#forData {
+			font-size: 18px;}
+		label {
+			display: inline-block;
+			text-align: right;
+			width: 200px;
+			margin: 5px;
+		}
+		#result {
+			margin: 0 200px;
+			line-height: 24px;
+		}
+	</style>
+</head>
+<body ng-controller="myController">
+	<div id="forData">
+		<div>
+			<label for="female_name">female name</label>
+			<input id="female_name" type="text" ng-model="female_name">
+		</div>
+		<div>
+			<label for="job_title">job title</label>
+			<input id="job_title" type="text" ng-model="job_title">
+		</div>
+		<div>
+			<label for="tedious_task">tedious_task</label>
+			<input id="tedious_task" type="text" ng-model="tedious_task">
+		</div>
+		<div>
+			<label for="dirty_task">dirty_task</label>
+			<input id="dirty_task" type="text" ng-model="dirty_task">
+		</div>
+		<div>
+			<label for="celebrity">celebrity</label>
+			<input id="celebrity" type="text" ng-model="celebrity">
+		</div>
+		<div>
+			<label for="adjective">adjective</label>
+			<input id="adjective" type="text" ng-model="adjective">
+		</div>
+		<div>
+			<label for="obnoxious_celebrity">obnoxious_celebrity</label>
+			<input id="obnoxious_celebrity" type="text" ng-model="obnoxious_celebrity">
+
+		</div>
+		<div>
+			<label for="useless_skill">useless_skill</label>
+			<input id="useless_skill" type="text" ng-model="useless_skill">
+		</div>
+		<div>
+			<label for="huge_number">huge_number</label>
+			<input id="huge_number" type="text" ng-model="huge_number">
+		</div>
+	</div>
+	<div id="result">
+		<p>
+			{{female_name}} was a {{job_title}} who loved technology. Although she loved parts of her job, she
+			absolutely hated {{tedious_task}} and {{dirty_task}}. So, {{female_name}} met with her life mentor
+			{{celebrity}} who told her to learn how to {{useless_skill}} with MaryKay Cosmetics. MaryKay didn't offer a
+			course on {{useless_skill}} so she studied software engineering instead.
+		</p>
+		<p>
+			What a great decision! With her new skills, {{female_name}} built a(n) {{adjective}} robot named
+			{{obnoxious_celebrity}} that not only loved {{dirty_task}} but did it {{huge_number}} times faster. Now she
+			spends all her time booking appointments and hosting events as an itinerant beauty consultant.
+		</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+	<meta charset="utf-8">
+	<title>learning</title>
+	<link href="organization.css" rel="stylesheet">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+	<script src="organization.js"></script>
+</head>
+<body ng-controller="myController">
+<div id="search">Search:<input ng-model="query" type="text"/></div>
+<div id="tableWrapper">
+	<table>
+		<tr>
+			<th><a href="" ng-click="sortByName()">Country</a></th>
+			<th><a href="" ng-click="sortByPop()">Population</a></th>
+		</tr>
+		<tr ng-repeat="country in countries | filter:query | orderBy:sortField:reverse">
+			<td>{{country.name}}</td>
+			<td>{{country.population | number}}</td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>
